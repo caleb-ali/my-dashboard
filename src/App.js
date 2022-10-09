@@ -19,7 +19,7 @@ import {
   Financial,
   ColorPicker,
   ColorMapping,
-  Editor,
+  Editor, Line
 } from "./pages";
 import "./App.css";
 
@@ -63,8 +63,8 @@ const App = () => {
           <div>
             <Routes>
               {/* Dashboard */}
-              <Route path="/" element={<ECommerce/>} />
-              <Route path="/ecommerce" element={<ECommerce/>} />
+              <Route path="/" element={<Ecommerce/>} />
+              <Route path="/ecommerce" element={<Ecommerce/>} />
 
               {/* pages */}
               <Route path="/orders" element={<Orders/>} />
